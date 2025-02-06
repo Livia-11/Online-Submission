@@ -15,6 +15,7 @@ public class StudentRegistration extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
+        request.setAttribute("formName", "Student Registration Form");
         request.getRequestDispatcher("WEB-INF/form.jsp").forward(request,response);
     }
 
