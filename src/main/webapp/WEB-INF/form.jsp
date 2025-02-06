@@ -11,6 +11,11 @@
     <title>Student Registration</title>
 </head>
 <body>
-
+<form action="Registration" method="POST">
+    <label> FirstName</label><input type="text" name="fname"><br>
+    <label> LastName</label><input type="text" name="lname"><br>
+    <label> Email</label><input type="text" name="email"><br>
+    <input type="submit" value="Register">
+</form>
 </body>
 </html>
