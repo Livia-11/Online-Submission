@@ -27,8 +27,9 @@ public class HibernateUtil {
             settings.put(Environment.PASS, "");
             //PostgreSQL
             //settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
+            settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
             settings.put(Environment.SHOW_SQL, true);
-            settings.put(Environment.HBM2DDL_AUTO, "update");
+            settings.put(Environment.HBM2DDL_AUTO, "create-drop");
             configuration.setProperties(settings);
             configuration.addAnnotatedClass(Student.class);
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
