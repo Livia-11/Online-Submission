@@ -5,8 +5,20 @@
          version="6.0">
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>rwanda.coding.academy</welcome-file>
+        <welcome-file>Hello Servlet</welcome-file>
+        <welcome-file>index.htmhl</welcome-file>
         <welcome-file>index.htm</welcome-file>
-
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <display-name>Hello Application</display-name>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.submission.mis.onlinesubmission.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello-servlet</url-pattern>
+        <url-pattern>/rwanda.coding.academy</url-pattern>
+    </servlet-mapping>
 </web-app>
