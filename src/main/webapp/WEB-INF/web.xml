@@ -5,6 +5,7 @@
          version="6.0">
 
     <welcome-file-list>
+        <welcome-file>/registration.rca</welcome-file>
         <welcome-file>rwanda.coding.academy</welcome-file>
         <welcome-file>Hello Servlet</welcome-file>
         <welcome-file>index.htmhl</welcome-file>
@@ -20,5 +21,16 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello-servlet</url-pattern>
         <url-pattern>/rwanda.coding.academy</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <display-name>Registration of Students</display-name>
+        <servlet-name>StudentRegistration</servlet-name>
+        <servlet-class>com.submission.mis.onlinesubmission.controllers.StudentRegistration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentRegistration</servlet-name>
+        <url-pattern>/registration.rca</url-pattern>
+        <url-pattern>/registration.html</url-pattern>
+        <url-pattern>/nyabihu</url-pattern>
     </servlet-mapping>
 </web-app>

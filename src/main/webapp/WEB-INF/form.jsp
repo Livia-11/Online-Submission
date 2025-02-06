@@ -11,7 +11,7 @@
     <title>Student Registration</title>
 </head>
 <body>
-<form action="Registration" method="POST">
+<form action="registration.rca" method="POST">
     <label> FirstName</label><input type="text" name="fname"><br>
     <label> LastName</label><input type="text" name="lname"><br>
     <label> Email</label><input type="text" name="email"><br>
