@@ -5,7 +5,7 @@
          version="6.0">
 
     <welcome-file-list>
-        <welcome-file>/registration.rca</welcome-file>
+        <welcome-file>registration.rca</welcome-file>
         <welcome-file>rwanda.coding.academy</welcome-file>
         <welcome-file>Hello Servlet</welcome-file>
         <welcome-file>index.htmhl</welcome-file>
